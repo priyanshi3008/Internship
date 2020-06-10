@@ -1,0 +1,53 @@
+*{
+    box-sizing:border-box;
+    }
+span{
+    color:gray;
+}
+img
+{
+    border-radius: 10%;
+    height:220px;
+}
+.container-fluid
+{ 
+    border-bottom: 1px solid gray; 
+    margin:10px;
+    padding:10px;
+}
+ h5
+{
+    color:forestgreen;
+    }
+
+ul{
+    display: inline-block;
+    text-align:left;
+    }
+
+body{
+    font-family: sans-serif;   
+    text-align: center;
+     }
+a:active, a:link, a:visited
+{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:darkslategray;
+}
+@media(max-width: 767px) 
+{
+    .col-md-4
+    {
+        margin:10px;
+    }
+    .col
+    {
+      padding:0px;
+      display:inline-block;
+       width:auto;
+        }
+    
+}
