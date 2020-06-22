@@ -1,0 +1,58 @@
+.sidebar
+{
+    height:100vh;
+    background-color:darkgray;
+    }
+.bottom-border
+{
+    border-bottom:1px solid black;
+}
+.sidebarlink
+{
+    transition: all .4s;
+}
+.sidebarlink:hover{
+    background-color:lightgray;
+    border-radius: 5px;
+    transform: translate(-1px);
+}
+.closebtn
+    {
+    text-decoration:none;
+    color:black;
+        display:inline-block;     
+            }
+
+    .closebtn:hover{
+        text-decoration:none;
+        color:darkslategray;
+    }
+.card:hover
+{
+    box-shadow: 2px 2px 2px 2px black;
+    transition: all .4s;
+    transform:translate(-1px);
+}
+#close-sidebar {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+    
+@media(min-width:767px){
+    .closebtn{
+    visibility: hidden;
+    }
+@media(max-width:767px)
+{
+    .navbar
+    {
+        position:fixed;
+        width:250px;
+        overflow-y:scroll;
+        top:0;
+        bottom: 0;
+    }
+}
