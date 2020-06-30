@@ -46,7 +46,7 @@
 .items
 {
     color:gray;
-    margin:30px;
+    
 }
 .icons
 {
@@ -71,19 +71,21 @@
     margin-left:10px;
     height:40px;
     font-size:20px;
-    width:40vh;
+    width:50vh;
     margin-right:10px;
+    border-radius:10px;
+    border:1px solid gray;
     }
 .button
 {
-    margin-top:20px;
+    margin-top:40px;
     margin-right:10px;
     margin-left:10px;
-    width:40vh;
+    width:50vh;
     height:40px;
-    border-radius:5px;
+    border-radius:10px;
     background-color:#5469d4;
-    font-size:15px;
+    font-size:18px;
     color:white;
     position:relative;
    
@@ -92,7 +94,8 @@
 .signin
 {
     position:absolute;
-    left:35%;
+    left:30%;
+    margin-top:20px;
     
     
     font-size:15px;
