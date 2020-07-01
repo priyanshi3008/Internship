@@ -1,0 +1,32 @@
+.logo
+{
+    
+    color:#5469d4;
+    
+}
+.btn
+{
+    background-color:#5469d4;
+    font-weight:400;
+    width:100%;
+    font-size:20px;
+    
+}
+#login-column
+{
+    
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+span a
+{
+    color:#5469d4;
+    text-decoration:none;
+    outline:none;
+    font-weight:500;
+
+}
+span a:hover{
+    text-decoration:none;
+    outline:none;
+    color:black;
+}
