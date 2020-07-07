@@ -1,3 +1,8 @@
+html, body
+{
+    width:100%;
+    overflow-x:hidden;
+}
 .divider
 {
     height:100vh;
@@ -36,7 +41,7 @@
     top:8%;
     font-size:30px;
     padding-left:10px;
-    
+    width:100%;
     
 }
 .second-half
@@ -66,22 +71,22 @@
     margin-top:20px;
 
 }
-#email, #fname, #pwd
+#email, #fname, #pwd, #email2, #fname2, #pwd2, #pwd3, #pwd4
 {
-    margin-left:10px;
+    /*margin-left:10px;*/
     height:40px;
     font-size:20px;
-    width:50vh;
-    margin-right:10px;
+    width:80%;
+   /* margin-right:10px;*/
     border-radius:10px;
     border:1px solid gray;
     }
 .button
 {
     margin-top:40px;
-    margin-right:10px;
-    margin-left:10px;
-    width:50vh;
+    /*margin-right:10px;*/
+    /*margin-left:10px;*/
+    width:80%;
     height:40px;
     border-radius:10px;
     background-color:#5469d4;
@@ -93,9 +98,10 @@
 }
 .signin
 {
+    width:100%;
     position:absolute;
-    left:30%;
-    margin-top:20px;
+    right:8%;
+    margin-top:8px;
     
     
     font-size:15px;
@@ -133,6 +139,22 @@
     .signin
     {
         position:absolute;
-        left:27%;
+        right:1.8%;
+        width:100%;
     }
+    #email2, #fname2, #pwd3, #pwd4
+{
+    /*margin-left:10px;*/
+    height:40px;
+    font-size:20px;
+    width:100%;
+   /* margin-right:10px;*/
+    border-radius:10px;
+    border:1px solid gray;
+    }
+    .button
+    {
+        width:100%;
+    }
+
 }
